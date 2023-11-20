@@ -1,78 +1,36 @@
-// ---------Responsive-navbar-active-animation-----------
-function test(){
-	var tabsNewAnim = $('#navbarSupportedContent');
-	var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
-	var activeItemNewAnim = tabsNewAnim.find('.active');
-	var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
-	var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
-	var itemPosNewAnimTop = activeItemNewAnim.position();
-	var itemPosNewAnimLeft = activeItemNewAnim.position();
-	$(".hori-selector").css({
-		"top":itemPosNewAnimTop.top + "px", 
-		"left":itemPosNewAnimLeft.left + "px",
-		"height": activeWidthNewAnimHeight + "px",
-		"width": activeWidthNewAnimWidth + "px"
-	});
-	$("#navbarSupportedContent").on("click","li",function(e){
-		$('#navbarSupportedContent ul li').removeClass("active");
-		$(this).addClass('active');
-		var activeWidthNewAnimHeight = $(this).innerHeight();
-		var activeWidthNewAnimWidth = $(this).innerWidth();
-		var itemPosNewAnimTop = $(this).position();
-		var itemPosNewAnimLeft = $(this).position();
-		$(".hori-selector").css({
-			"top":itemPosNewAnimTop.top + "px", 
-			"left":itemPosNewAnimLeft.left + "px",
-			"height": activeWidthNewAnimHeight + "px",
-			"width": activeWidthNewAnimWidth + "px"
-		});
-	});
-}
-$(document).ready(function(){
-	setTimeout(function(){ test(); });
+document.addEventListener('DOMContentLoaded', function () {
+  const burgerMenu = document.querySelector('.burger-menu');
+  const navMenu = document.querySelector('.menu');
+
+  burgerMenu.addEventListener('click', function () {
+      navMenu.classList.toggle('active');
+  });
 });
-$(window).on('resize', function(){
-	setTimeout(function(){ test(); }, 500);
+document.addEventListener('DOMContentLoaded', function () {
+  /**
+   * Represents a Swiper instance.
+   * @class
+   * @param {string|HTMLElement} container - The container element or selector for the Swiper.
+   * @param {Object} options - The options for configuring the Swiper.
+   * @param {number} options.slidesPerView - The number of slides to display per view.
+   * @param {number} options.spaceBetween - The space between slides.
+   * @param {Object} options.navigation - The navigation options for the Swiper.
+   * @param {string|HTMLElement} options.navigation.nextEl - The element or selector for the next button.
+   * @param {string|HTMLElement} options.navigation.prevEl - The element or selector for the previous button.
+   * @param {Object} options.pagination - The pagination options for the Swiper.
+   * @param {string|HTMLElement} options.pagination.el - The element or selector for the pagination container.
+   * @param {boolean} options.pagination.clickable - Whether the pagination is clickable.
+   */
+  const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+      },
+  });
 });
-$(".navbar-toggler").click(function(){
-	$(".navbar-collapse").slideToggle(300);
-	setTimeout(function(){ test(); });
-});
-
-
-
-// --------------add active class-on another-page move----------
-jQuery(document).ready(function($){
-	// Get current path and find target link
-	var path = window.location.pathname.split("/").pop();
-
-	// Account for home page with empty path
-	if ( path == '' ) {
-		path = 'index.html';
-	}
-
-	var target = $('#navbarSupportedContent ul li a[href="'+path+'"]');
-	// Add active class to target link
-	target.parent().addClass('active');
-});
-
-
-
-
-// Add active class on another page linked
-// ==========================================
-// $(window).on('load',function () {
-//     var current = location.pathname;
-//     console.log(current);
-//     $('#navbarSupportedContent ul li a').each(function(){
-//         var $this = $(this);
-//         // if the current path is like this link, make it active
-//         if($this.attr('href').indexOf(current) !== -1){
-//             $this.parent().addClass('active');
-//             $this.parents('.menu-submenu').addClass('show-dropdown');
-//             $this.parents('.menu-submenu').parent().addClass('active');
-//         }else{
-//             $this.parent().removeClass('active');
-//         }
-//     })
-// });
