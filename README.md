@@ -29,17 +29,19 @@ Before you begin, ensure you have met the following requirements:
 
 To run **11140508_DCIT205** locally, run this command on your git bash:
 
+Windows:
+
+```bash
+git clone sudo git clone https://github.com/bundana/11140508_DCIT205.git
+```
+
 Linux and macOS:
 
 ```bash
 sudo git clone sudo git clone https://github.com/bundana/11140508_DCIT205.git
 ```
 
-Windows:
 
-```bash
-git clone sudo git clone https://github.com/bundana/11140508_DCIT205.git
-```
 
 ### Contact
 Name **Sulemana Abdul Haafiz Bundana**
