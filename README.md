@@ -2,8 +2,9 @@
  
   <br />
   <br />
-![11140508_DCIT205 Desktop Demo](./assets/images/comScience_logo.png "Logo Demo")
-![11140508_DCIT205 Desktop Demo](./assets/images/screenshot1.png "Desktop Demo")
+  ### 11140508_DCIT205 IA
+
+![11140508_DCIT205 Desktop Demo](./assets/images/comScience_logo.png "Logo Demo") 
 
   <h2 align="center">UG | Department of Computer Science</h2>
 
@@ -30,13 +31,13 @@ To run **11140508_DCIT205** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/bundana/11140508_DCIT205.gitt](https://github.com/bundana/11140508_DCIT205.git
+sudo git clone sudo git clone https://github.com/bundana/11140508_DCIT205.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/bundana/11140508_DCIT205.gitt](https://github.com/bundana/11140508_DCIT205.git
+git clone sudo git clone https://github.com/bundana/11140508_DCIT205.git
 ```
 
 ### Contact
