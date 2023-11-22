@@ -1,8 +1,9 @@
-<div align="center">
+  ### 11140508_DCIT205 IA
+  <div align="center">
  
   <br />
   <br />
-  ### 11140508_DCIT205 IA
+
 
 ![11140508_DCIT205 Desktop Demo](./assets/images/comScience_logo.png "Logo Demo") 
 
