@@ -13,7 +13,7 @@
 
 ### Demo Screeshots
 
-![EduWeb Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![EduWeb Desktop Demo](./assets/images/screenshot1.png "Desktop Demo")
 
 ### Prerequisites
 
