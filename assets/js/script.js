@@ -101,3 +101,25 @@ document.addEventListener('DOMContentLoaded', function () {
     return `BOOK-${timestamp}`;
   }
 });
+
+
+function showProductDetails(name, price) {
+  const productNameElement = document.getElementById('productName');
+  const productPriceElement = document.getElementById('productPrice');
+
+  productNameElement.textContent = name;
+  productPriceElement.textContent = `$${price.toFixed(2)}`;
+
+  const modal = document.getElementById('productDetails');
+  modal.style.display = 'block';
+}
+
+function hideProductDetails() {
+  const modal = document.getElementById('productDetails');
+  modal.style.display = 'none';
+}
+
+function addToCart() { 
+  alert('Product added to the cart!');
+  hideProductDetails();
+}
