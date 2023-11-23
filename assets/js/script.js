@@ -60,3 +60,44 @@ const activeElemOnScroll = function () {
 }
 
 addEventOnElem(window, "scroll", activeElemOnScroll);
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const openFormBtn = document.getElementById('openFormBtn');
+  const closeFormBtn = document.getElementById('closeFormBtn');
+  const submitBtn = document.getElementById('submitBtn');
+  const closeSuccessBtn = document.getElementById('closeSuccessBtn');
+  const bookingForm = document.getElementById('bookingForm');
+  const successMessage = document.getElementById('successMessage');
+  const bookingRefSpan = document.getElementById('bookingRef');
+
+  openFormBtn.addEventListener('click', function () {
+    bookingForm.style.display = 'block';
+  });
+
+  closeFormBtn.addEventListener('click', function () {
+    bookingForm.style.display = 'none';
+  });
+
+  submitBtn.addEventListener('click', function () {
+    const studentId = document.getElementsByName('studentId')[0].value;
+    const email = document.getElementsByName('email')[0].value;
+
+    // Simulate generating a booking reference (you may implement your logic here)
+    const bookingRef = generateBookingReference();
+
+    // Display success message with booking reference
+    bookingForm.style.display = 'none';
+    successMessage.style.display = 'block';
+    bookingRefSpan.textContent = bookingRef;
+  });
+
+  closeSuccessBtn.addEventListener('click', function () {
+    successMessage.style.display = 'none';
+  });
+
+  function generateBookingReference() { 
+    const timestamp = new Date().getTime();
+    return `BOOK-${timestamp}`;
+  }
+});
