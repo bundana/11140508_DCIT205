@@ -1359,3 +1359,124 @@ body {
     background-color: #f7f5ec;
   }
   
+  .profile {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profile h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .profile p {
+    margin: 5px 0;
+    color: #666;
+  }
+
+  .event-details {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+  }
+  
+  .event-details img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+  }
+  
+  .event-description h2 {
+    color: #333;
+  }
+  
+  .event-description p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .event-description ul {
+    margin: 10px 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .event-description ul li {
+    margin-bottom: 5px;
+    color: #666;
+  }
+
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .form-container {
+    text-align: center;
+  }
+  
+  .form-container label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container.success {
+    color: #4CAF50;
+  }
+  
+  #successMessage {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
