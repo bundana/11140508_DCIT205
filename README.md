@@ -19,6 +19,25 @@
 
 ![11140508_DCIT205 Desktop Demo](./assets/images/screenshot1.png "Desktop Demo")
 
+## Webpages
+
+1. **[Home Page](https://www.example.com/home)**  
+   - Description: Brief overview of the website.
+   - URL: [https://www.example.com/home](https://www.example.com/home)
+
+2. **[About Us](https://www.example.com/about)**  
+   - Description: Learn more about our organization.
+   - URL: [https://www.example.com/about](https://www.example.com/about)
+
+3. **[Products](https://www.example.com/products)**  
+   - Description: Explore our product offerings.
+   - URL: [https://www.example.com/products](https://www.example.com/products)
+
+4. **[Contact](https://www.example.com/contact)**  
+   - Description: Get in touch with us.
+   - URL: [https://www.example.com/contact](https://www.example.com/contact)
+
+
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
