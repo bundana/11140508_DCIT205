@@ -20,22 +20,35 @@
 ![11140508_DCIT205 Desktop Demo](./assets/images/screenshot1.png "Desktop Demo")
 
 ## Webpages
+1. **[Home (index.html)](index.html)**  
+   - Description: The main landing page for the department.
 
-1. **[Home Page](https://www.example.com/home)**  
-   - Description: Brief overview of the website.
-   - URL: [https://www.example.com/home](https://www.example.com/home)
+2. **[About (about.html)](about.html)**  
+   - Description: Learn more about the Department of Computer Science.
 
-2. **[About Us](https://www.example.com/about)**  
-   - Description: Learn more about our organization.
-   - URL: [https://www.example.com/about](https://www.example.com/about)
+3. **[Staff (staff.html)](staff.html)**  
+   - Description: Meet our dedicated staff members.
 
-3. **[Products](https://www.example.com/products)**  
-   - Description: Explore our product offerings.
-   - URL: [https://www.example.com/products](https://www.example.com/products)
+4. **[Contact Us (contact-us.html)](contact-us.html)**  
+   - Description: Get in touch with the department.
 
-4. **[Contact](https://www.example.com/contact)**  
-   - Description: Get in touch with us.
-   - URL: [https://www.example.com/contact](https://www.example.com/contact)
+5. **[Events (events.html)](events.html)**  
+   - Description: Stay updated on upcoming events.
+
+6. **[Blog (blog.html)](blog.html)**  
+   - Description: Explore the latest news and updates.
+
+7. **[Blog Single (blog-single.html)](blog-single.html)**  
+   - Description: Details of a specific blog post.
+
+8. **[Catalog (catalog.html)](catalog.html)**  
+   - Description: Browse through our course catalog.
+
+9. **[Student Projects (student-projects.html)](student-projects.html)**  
+   - Description: Showcase of projects by our talented students.
+
+10. **[Apply (apply.html)](apply.html)**  
+    - Description: Information on how to apply to the department.
 
 
 ### Prerequisites
