@@ -58,8 +58,13 @@ Before you begin, ensure you have met the following requirements:
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
 ### Run Locally
+To clone this repository to your local machine, follow these steps:
 
-To run **11140508_DCIT205** locally, run this command on your git bash:
+1. Open your terminal or command prompt.
+
+2. Navigate to the directory where you want to clone the repository.
+ 
+3. To run **11140508_DCIT205** locally, run this command on your git bash:
 
 Windows:
 
