@@ -119,7 +119,32 @@ function hideProductDetails() {
   modal.style.display = 'none';
 }
 
-function addToCart() { 
-  alert('Product added to the cart!');
+function addToCart() {
+  const productNameElement = document.getElementById('productName');
+  const productName = productNameElement.textContent;
+
+  alert(productName + ' Product added to the cart!');
   hideProductDetails();
+}
+
+function showProjectDetails(projectUrl, projectName, projectAuthor) {
+  const projectDetailsModal = document.getElementById('projectDetails');
+  const projectIframe = document.getElementById('projectIframe');
+  const projectNameElement = document.getElementById('projectName');
+  const projectAuthorElement = document.getElementById('projectAuthor');
+
+  projectNameElement.textContent = projectName;
+  projectAuthorElement.textContent = `By: ${projectAuthor}`;
+  // projectIframe.src = projectUrl;
+
+  projectDetailsModal.style.display = 'block';
+}
+
+function hideProjectDetails() {
+  const projectDetailsModal = document.getElementById('projectDetails');
+  const projectIframe = document.getElementById('projectIframe');
+
+  projectDetailsModal.style.display = 'none';
+  // Reset the iframe source to stop video/audio playback when closing the modal
+  projectIframe.src = '';
 }
