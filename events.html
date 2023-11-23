@@ -116,33 +116,36 @@
             <p>Please RSVP by November 20, 2023, to secure your spot.</p>
             <p>Email: rsvp@dcs.ug.edu.gh</p>
           </div>
+
+          <button id="openFormBtn" class="btn btn-primary">Book Now</button>
+
         </div> 
     </section> 
 
-    <button id="openFormBtn">Book Now</button>
-
-    <div id="bookingForm" class="form-popup">
-      <form id="bookingFormContent" class="form-container">
-        <h2>Book Your Spot</h2>
-        <label for="studentId"><b>Student ID</b></label>
-        <input type="text" placeholder="Enter Student ID" name="studentId" required>
-
-        <label for="email"><b>Email</b></label>
-        <input type="email" placeholder="Enter Email" name="email" required>
-
-        <button type="button" id="submitBtn">Submit</button>
-        <button type="button" id="closeFormBtn">Close</button>
-      </form>
-    </div>
-
-    <div id="successMessage" class="form-popup">
-      <div class="form-container success">
-        <h2>Booking Successful!</h2>
-        <p>Your booking reference is: <span id="bookingRef"></span></p>
-        <button type="button" id="closeSuccessBtn">Close</button>
+    <div id="bookingForm" class="form-popup contact-form">
+        <form id="bookingFormContent" class="form-container">
+          <h2>Book Your Spot</h2>
+          <label for="studentId"><b>Student ID</b></label>
+          <input type="text" placeholder="Enter Student ID" name="studentId" required>
+  
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="email" required>
+  
+          <button type="button" class="btn btn-primary"  id="submitBtn">Submit</button>
+          <button type="button" class="btn btn-secondary"  id="closeFormBtn">Close</button>
+        </form>
+      </div>
+  
+      <div id="successMessage" class="form-popup">
+        <div class="form-container success">
+          <h2>Booking Successful!</h2>
+          <p>Your booking reference is: <span id="bookingRef"></span></p>
+          <button type="button" class="btn btn-primary" id="closeSuccessBtn">Close</button>
+        </div>
       </div>
     </div>
-  </div>
+    
+
 
   </section>
     <footer class="footer">
