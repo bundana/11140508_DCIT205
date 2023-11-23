@@ -69,13 +69,13 @@ To clone this repository to your local machine, follow these steps:
 Windows:
 
 ```bash
-git clone sudo git clone https://github.com/bundana/11140508_DCIT205.git
+git   clone https://github.com/bundana/11140508_DCIT205.git
 ```
 
 Linux and macOS:
 
 ```bash
-sudo git clone sudo git clone https://github.com/bundana/11140508_DCIT205.git
+sudo git clone https://github.com/bundana/11140508_DCIT205.git
 ```
 
 
