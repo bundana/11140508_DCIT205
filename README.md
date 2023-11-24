@@ -19,6 +19,9 @@
 
 ![11140508_DCIT205 Desktop Demo](./assets/images/screenshot1.png "Desktop Demo")
 
+
+Having issues with screenshots for all devices:
+
 ## Webpages
 1. **[Home (index.html)](index.html)**  
    - Description: The main landing page for the department.
