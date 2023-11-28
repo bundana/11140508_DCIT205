@@ -22,6 +22,12 @@
 ### Demo Screeshots
 
 ![11140508_DCIT205 Desktop Demo](./assets/images/screenshot1.png "Desktop Demo")
+![11140508_DCIT205 Desktop Demo](./assets/images/screenshot2.png "Desktop Demo")
+
+![11140508_DCIT205 Desktop Demo](./assets/images/screenshot3.png "Desktop Demo")
+
+![11140508_DCIT205 Desktop Demo](./assets/images/screenshot4.png "Desktop Demo")
+
 
 
 Having issues with screenshots for all devices:
