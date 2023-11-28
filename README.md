@@ -10,7 +10,9 @@
   <h2 align="center">UG | Department of Computer Science</h2>
 
   UG | Department of Computer Science is a fully responsive education website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
- 
+   <a href="[https://codewithsadee.github.io/eduweb/](https://bundana.github.io/11140508_DCIT205/)"><strong>➥ Live Demo of Website</strong></a>
+
+
 </div>
 
 <br />
