@@ -17,7 +17,7 @@
 
 <br />
 ## Demo
-   <a href="https://codewithsadee.github.io/eduweb/"><strong>➥ Live Demo of Website</strong></a>
+   <a href="https://bundana.github.io/11140508_DCIT205/"><strong>➥ Live Demo of Website</strong></a>
 
 ### Demo Screeshots
 
